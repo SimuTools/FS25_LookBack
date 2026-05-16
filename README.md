@@ -24,12 +24,6 @@ The key binding can be changed in the game settings:
 Options -> Controls
 ```
 
-## Default Controls
-
-```txt
-Look Back: Hold Ctrl + L
-```
-
 ## Support
 
 Support on: https://discord.gg/C9yRZmQ6M3
