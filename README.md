@@ -24,42 +24,11 @@ The key binding can be changed in the game settings:
 Options -> Controls
 ```
 
-## Features
-
-- Quick rear-view camera function
-- Mainly designed for interior view driving
-- Also works in exterior view
-- Camera returns automatically when the key is released
-- Configurable key binding through the in-game controls menu
-- Simple and lightweight script mod
-- Multiplayer/server compatible
-
-## Usage
-
-1. Enter or select a vehicle.
-2. Hold the Look Back key.
-3. The camera turns backwards.
-4. Release the key to return to the previous view.
-
-This is especially useful when reversing, parking, maneuvering in tight spaces or attaching trailers and implements.
-
 ## Default Controls
 
 ```txt
 Look Back: Hold Ctrl + L
 ```
-
-You can change the key binding in:
-
-```txt
-Options -> Controls
-```
-
-## Notes
-
-Look Back was created to make driving from the cabin view more comfortable and practical, especially when reversing or checking what is behind the vehicle.
-
-The mod does not add a new menu or HUD. It simply adds a hold-to-look-back camera function.
 
 ## Support
 
