@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="108">
+    <author>SimuTools</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Look Back Camera</en>
+    </title>
+<description>
+    <de><![CDATA[
+Look Back fügt eine schnelle Rückblick-Funktion hinzu.
+
+Die Mod wurde entwickelt, um in der Innenansicht schnell nach hinten schauen zu können. Sie lässt sich aber auch in der Außenansicht nutzen.
+Halte einfach die Taste gedrückt, um nach hinten zu schauen. Sobald du die Taste loslässt, schaust du wieder nach vorne.
+
+Standard-Taste: Strg + L halten
+
+Bei Feedback oder Fehlern, melde dich gerne hier:
+https://github.com/SimuTools/FS25_LookBack]]></de>
+
+    <en><![CDATA[
+Look Back adds a quick rear-view function.
+
+The mod was created to quickly look backwards from the interior view, but it can also be used in the exterior view.
+Simply hold the key to look backwards. Once you release the key, the camera returns to the front.
+
+Default key: Hold Ctrl + L
+
+If you have any feedback or encounter any errors, please feel free to contact us here:
+https://github.com/SimuTools/FS25_LookBack]]></en>
+</description>
+
+    <iconFilename>icon_LookBack.dds</iconFilename>
+    <multiplayer supported="true"/>
+
+    <l10n>
+        <text name="input_LOOKBACK_HOLD">
+            <de>Nach hinten schauen (halten)</de>
+            <en>Look back (hold)</en>
+        </text>
+    </l10n>
+
+    <actions>
+        <action name="LOOKBACK_HOLD"/>
+    </actions>
+
+    <inputBinding>
+        <actionBinding action="LOOKBACK_HOLD">
+            <binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_l"/>
+        </actionBinding>
+    </inputBinding>
+
+    <extraSourceFiles>
+        <sourceFile filename="LookBack.lua"/>
+    </extraSourceFiles>
+</modDesc>
